@@ -7,7 +7,7 @@ document.getElementById('namaForm').addEventListener('submit', function(e) {
   if (!regex.test(inputNama)) {
     alert("NAMA TIDAK VALID\nMungkin Nama Anda Mengandung Kata Terlarang");
   } else {
-    let website = "https://wa.me/+6288214764360?text= √wl " + inputNama + "";
+    let website = "mailto: aditgaming1945gg@gmail.com?subject=wl " + inputNama + "";
     window.location.href = website;
   }
 });
