@@ -54,7 +54,19 @@
 	   }
    </style>
   
-  
+
+<script>
+        // Gunakan local storage untuk menyimpan informasi bahwa halaman telah diakses
+        if (localStorage.getItem('pageAccessed')) {
+            alert('Lu Udah Wl Kontol');
+            window.location.href = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKeo4mVvxiLALdFOMTctV7duZpGHVFEJoRQmSEz3wUplf8jVR2jZSBGlI&s=10';  // Redirect ke halaman kosong atau halaman lain yang sesuai
+        } else {
+            // Simpan informasi akses ke local storage
+            localStorage.setItem('pageAccessed', 'true');
+        }
+    </script>
+
+	    
    <center>
     <h3>WL CLOSE <br> admin akmal sedang tidak menerima req wl</h3>
     
