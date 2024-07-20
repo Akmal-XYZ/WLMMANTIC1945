@@ -6,13 +6,13 @@ document.getElementById('namaForm').addEventListener('submit', function(e) {
   
             
             if (!regex.test(inputNama)) {
-                document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener";
+                document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener Kontol";
             } else {
                 let uppercaseCount = inputNama.replace(/[^A-Z]/g, "").length;
                 if (uppercaseCount < 2) {
-                    document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener";
+                    document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener Kontol";
                 } else if (uppercaseCount > 2) {
-                    document.getElementById('error').innerText = "⚠️Hanya boleh ada 2 huruf besar dalam nama";
+                    document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener Ngentot";
                 } else {
                     let website = "mailto: aditgaming1945gg@gmail.com?subject=wl " + inputNama + "&body=wl201945pcsi20202420mcrp20akmal20ytta222220whitelist";
                     window.location.href = website;
