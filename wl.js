@@ -11,7 +11,7 @@ document.getElementById('namaForm').addEventListener('submit', function(e) {
     if (uppercaseCount > 2) {
       document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener Kontol";
     } else {
-      let website = "mailto: aditgaming1945gg@gmail.com?subject=wl " + inputNama + "&body=wl201945pcsi20202420mcrp20akmal20ytta222220whitelist.                                                                                            JANGAN DI HAPUS WOI⚠️";
+      let website = "mailto: aditgaming1945gg@gmail.com?subject=wl " + inputNama + "&body=wl201945pcsi20202420mcrp20akmal20ytta222220whitelist.                                                                                                   JANGAN DI HAPUS WOI⚠️";
       window.location.href = website;
     }
   }
